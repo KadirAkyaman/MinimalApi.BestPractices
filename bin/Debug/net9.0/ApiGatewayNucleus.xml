@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiGatewayNucleus</name>
+    </assembly>
+    <members>
+        <member name="T:ApiGatewayNucleus.DTOs.CreateUserDto">
+            <summary>
+            Represents the data required to create a new user.
+            </summary>
+        </member>
+        <member name="P:ApiGatewayNucleus.DTOs.CreateUserDto.Username">
+            <summary>
+            The desired username for the new account. Must be alphanumeric.
+            </summary>
+            <example>johndoe123</example>
+        </member>
+        <member name="P:ApiGatewayNucleus.DTOs.CreateUserDto.Email">
+            <summary>
+            The user's email address. Must be a valid email format.
+            </summary>
+            <example>john.doe@example.com</example>
+        </member>
+        <member name="P:ApiGatewayNucleus.DTOs.CreateUserDto.Password">
+            <summary>
+            The user's password. Must be at least 8 characters long and contain an uppercase letter, a lowercase letter, and a number.
+            </summary>
+            <example>Password123</example>
+        </member>
+    </members>
+</doc>
